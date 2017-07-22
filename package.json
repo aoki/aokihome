@@ -1,0 +1,14 @@
+{
+  "name": "aokihome",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "homebridge",
+    "config": "vi ~/.homebridge/config.json"
+  },
+  "dependencies": {
+    "homebridge": "0.4.22",
+    "homebridge-dummy": "0.2.0"
+  }
+}
