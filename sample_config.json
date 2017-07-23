@@ -1,0 +1,38 @@
+{
+    "bridge": {
+        "name": "Homebridge",
+        "username": "CC:22:3D:E3:CE:30",
+        "port": 51826,
+        "pin": "031-45-154"
+    },
+    
+    "description": "dummy",
+
+    "platforms": [
+      {
+        "platform": "Hue",
+        "name": "Hue",
+        "users": {
+        },
+        "sensors": true,
+        "excludeSensorTypes": ["Daylight", "CLIP", "Geofence"],
+        "lights": true,
+        "philipsLights": true,
+        "wallSwitch": true
+      }
+    ],
+
+    "accessories": [
+        {
+            "accessory": "DummySwitch",
+            "name": "コーヒーメーカー"
+        },
+        {
+            "accessory": "CMD",
+            "name": "容量",
+            "on_cmd": "df -h",
+            "off_cmd": "df -h"
+        }
+    ]
+}
+
