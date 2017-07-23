@@ -10,6 +10,7 @@
   "dependencies": {
     "homebridge": "0.4.22",
     "homebridge-cmd": "0.0.3",
-    "homebridge-dummy": "0.2.0"
+    "homebridge-dummy": "0.2.0",
+    "homebridge-hue": "0.5.7"
   }
 }
